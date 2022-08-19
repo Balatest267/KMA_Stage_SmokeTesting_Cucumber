@@ -23,11 +23,13 @@ Then fetch the name of the vehicle
 #And user perform Remote Climate  features
 #Then status of the Remote Door and Climate status
 #Given user is on Schedules Section 
+
 #Given user is on Locations Section
 #Given user is on Maintenance Section
 #Given user is on MyCarZone Section
 #Then user find the vehicle location
-#Then capture the alert message	
+#Then capture the alert message
+#This is the test 	
 Then close the browser	
 
 
