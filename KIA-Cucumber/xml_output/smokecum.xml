@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="91.908891">
+<testcase classname="KIA Customer Web Portal feature" name="KIA Customer Web Portal Smoke Testcases" time="91.908891">
+<system-out><![CDATA[Given user is on KIA web portal Landing Page................................passed
+When page title is Kia Owners Portal........................................passed
+Then user clicks the Sign in button.........................................passed
+Then user enter the "Niroev90@mailinator.com" and "Password1"...............passed
+Then user clicks the login button...........................................passed
+Then user is on dashboard page..............................................passed
+Then fetch the name of the vehicle..........................................passed
+Then get the status of the door.............................................passed
+Then user clicks the lockUnlock option......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

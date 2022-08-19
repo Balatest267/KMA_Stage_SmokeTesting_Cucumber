@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 38,
+        "name": "KIA Customer Web Portal Smoke Testcases",
+        "description": "",
+        "id": "kia-customer-web-portal-feature;kia-customer-web-portal-smoke-testcases;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39378376557,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on KIA web portal Landing Page",
+            "match": {
+              "location": "ProdSmokeTestingSD.user_is_on_KIA_web_portal_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10110144,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "page title is Kia Owners Portal",
+            "match": {
+              "location": "ProdSmokeTestingSD.page_title_is_Kia_Owners_Portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10082277894,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks the Sign in button",
+            "match": {
+              "location": "ProdSmokeTestingSD.user_clicks_the_Sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 382743526,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter the \"Niroev90@mailinator.com\" and \"Password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Niroev90@mailinator.com",
+                  "offset": 16
+                },
+                {
+                  "val": "Password1",
+                  "offset": 46
+                }
+              ],
+              "location": "ProdSmokeTestingSD.user_enter_the_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10104958995,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "ProdSmokeTestingSD.user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6652729236,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 23,
+                "value": "#Then user is on welcome page"
+              },
+              {
+                "line": 24,
+                "value": "#Then user pick the vehicle"
+              }
+            ],
+            "line": 25,
+            "name": "user is on dashboard page",
+            "match": {
+              "location": "ProdSmokeTestingSD.user_is_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10039494878,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "fetch the name of the vehicle",
+            "match": {
+              "location": "ProdSmokeTestingSD.fetch_the_name_of_the_vehicle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10045807462,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "get the status of the door",
+            "match": {
+              "location": "ProdSmokeTestingSD.get_the_status_of_the_door()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5212391952,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks the lockUnlock option",
+            "match": {
+              "location": "ProdSmokeTestingSD.user_clicks_the_lockUnlock_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "KIA Customer Web Portal feature",
+    "description": "",
+    "id": "kia-customer-web-portal-feature",
+    "keyword": "Feature",
+    "uri": "D:/TechR-Source/Automation_Testing/workspace/KIA_Cucumber/src/test/java/feature/ProdSmokeTesting.feature"
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="438.666826">
+<testcase classname="Login Action" name="Successful Login with valid credentials" time="438.666826">
+<system-out><![CDATA[Given user is on KIA web portal Landing Page................................passed
+And page title is Kia Owners Portal.........................................passed
+And user clicks the Sign in button..........................................passed
+When user enter the "testen15@mailinator.com" and "Password1"...............passed
+And user clicks the login button............................................passed
+Then user is on welcome page................................................passed
+Then user pick the vehicle..................................................passed
+Then user is on dashboard page..............................................passed
+Then fetch the name of the vehicle..........................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
